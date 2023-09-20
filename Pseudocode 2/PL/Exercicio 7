@@ -1,0 +1,41 @@
+ALG
+ED:
+
+Inicio
+ expoente <- -1
+ Ler(n)
+ n1 <- n 
+ Se n > 9
+  Repetir Enquanto (n1 <>0)
+   n1 <- n1 DIV 10
+   expoente <- expoente + 1
+  FimRepetir
+  expf <- expoente
+  expi <- 0
+  Se (expoente MOD 2) = 0
+   Repetir Enquanto ( expi <= ((exp/2) -1) E expf > (exp/2)  E dig1 = dig2)
+    dig1 <- n DIV expf 
+	dig2 <- n DIV expi 
+	expf <- expf - 1
+	expi <- expi + 1
+	Se (expf = (expi - 2)) E (n1=n2)
+	 Escrever(´O numero é capicua´)
+	Fimse
+   FimRepetir
+  Senao 
+   Repetir Enquanto ((expi <= ((exp DIV 2))) E (expf >= ((exp DIV 2)+ 1)))  E (dig1 = dig2))
+    dig1 <- n DIV expf 
+	dig2 <- n DIV expi 
+	expf <- expf - 1
+	expi <- expi + 1
+	Se expf = expi -1 E n1=n2
+	 Escrever(´O numero é capicua´)
+	Fimse
+   FimRepetir
+  Fimse
+ Fimse
+Fim 
+   
+    
+  
+    

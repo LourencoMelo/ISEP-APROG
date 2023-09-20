@@ -1,0 +1,22 @@
+ALG
+ED: total, dig INTEIRO
+
+Inicio
+ Ler(n)
+ Repetir Enquanto (n > 0)
+  total <- 0
+  Repetir  
+   dig <- n MOD 10 
+   Se (dig MOD 2) = 0
+    total <- total + dig
+   Fimse
+   n <- n DIV 10 
+   Se (n DIV 10) = 0
+    dig <- n MOD 10 
+	total <- total + dig
+  Enquanto (n DIV 10) =! 0
+  FimRepetir
+ Escrever(total)
+ Ler(n)
+ FimRepetir
+Fim

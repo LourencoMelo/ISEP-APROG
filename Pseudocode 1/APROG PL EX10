@@ -1,0 +1,23 @@
+ALG
+ED: 
+
+Inicio
+ ED: num, num1, num2, maneiras, i INTEIRO
+ALG
+INICIO
+    maneiras <- 0
+    LER (num)
+    SE (num < 1 OU num > 20)
+        ENTAO 
+            ESCREVER ("ERRO")
+        SENAO
+            limite <- num DIV 2
+            REPETIR PARA (i <- 0 ATE limite passo 1)
+                maneiras <- maneiras + 1
+                num1 <- i
+                num2 <- num - i 
+                ESCREVER (num1, num2)
+            FIMREPETIR
+            ESCREVER (maneiras)
+    FIMSE
+FIM

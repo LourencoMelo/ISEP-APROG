@@ -1,0 +1,23 @@
+ALG
+ED:
+
+Inicio
+ Ler(limite)
+ Ler(n)
+ total <- 1
+ maior <- 0
+ Se n>0 e limite>0
+  Repetir Enquanto total < limite
+   Se n > maior
+    maior <- n
+   Fimse
+   total <- total * n
+  FimRepetir
+ Escrever(maior)
+ Senao 
+  Escrever(´Digite um numero e um limite positivo´)
+ Fimse
+Fim
+ 
+ 
+ 

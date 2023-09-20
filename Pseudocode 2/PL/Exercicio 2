@@ -1,0 +1,29 @@
+ALG
+ED:
+
+Inicio
+ Ler(n)
+ Ler(N)
+ Se n > 0 E N > 1
+  Repetir i<-1 ate N PASSO +1
+   total <- 1
+   Repetir 
+    Se (n DIV 10 = 0)
+     dig <- n MOD 10 
+	 Se (dig MOD 2) <> 0
+	  total <- total * dig
+	 Fimse
+    Fimse
+	Senao
+     dig <- n MOD 10 
+     Se (dig MOD 2) <> 0
+      total <- total * dig
+	  n <- n DIV 10
+    Fimse 
+   Enquanto (n DIV 10) <> 0
+   Escrever(total)
+  FimRepetir
+ Fimse
+Fim 
+  
+  

@@ -1,0 +1,15 @@
+ALG
+ED: 
+
+Inicio
+ Ler(n1,n2)
+ n3 <- n1 + 1
+ Se n1<n2 
+  Repetir x<- n3 ate n2 PASSO +1
+   (x MOD 2) <> 0 E (x MOD 5) = 0
+   Escrever (x)
+  FimRepetir
+ Senao
+ Escrever(´Digite o numero menor primeiro´)
+ Fimse
+Fim  

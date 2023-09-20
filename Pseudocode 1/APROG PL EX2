@@ -1,0 +1,32 @@
+ALG
+ED:N INTEIRO
+median, nota, ppnota REAL 
+
+INCIO
+ Ler(N)
+ totaln <- 0
+ nnegativa <- 0
+ Se N>=1
+  Repetir 1 até N PASSO +1 FAZER
+   Ler(nota)
+   Se(nota>0)
+    Se nota<10
+	 totaln <- totaln + nota
+	 nnegativa <- nnegativa + 1
+    Senao
+	 totalp <- totalp + nota
+	Fimse
+   Fimse
+  FimRepetir
+  total<- totalp + totaln
+  median <- (totaln / nnegativa)
+  ppnota <- (totalp / total) /100
+  Escrever(median,ppnota)
+ Fimse
+ Escrever(´Digite um numero positivo)
+Fim 
+  
+
+    	
+   
+ 

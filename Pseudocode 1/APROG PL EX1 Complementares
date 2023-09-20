@@ -1,0 +1,31 @@
+ALG
+ED: 
+
+Inicio
+ Ler(codigo)
+ Repetir Enquanto (codigo <> 0)
+  Se codigo < 0 
+   Escrever(´Digite um codigo positivo´)
+  Senao 
+   Se codigo = 1
+    Escrever(´Alimento não perecível´)
+   Senao 
+    Se (codigo >= 2) E (codigo <= 4)
+	 Escrever(´Alimento perecível´)
+	Senao
+	 Se codigo = 5 OU codigo = 6
+	  Escrever(´Vestuário´)
+	 Senao 
+	  Se codigo = 7
+	   Escrever(´Higiene pessoal´)
+	  Senao 
+	   Se (codigo >=8) E (codigo <= 15)
+	    Escrever(´Limpeza e utensílios domésticos´)
+	   Fimse
+	  Fimse
+	 Fimse
+	Fimse
+   Fimse
+  Fimse
+ FimRepetir
+Fim 

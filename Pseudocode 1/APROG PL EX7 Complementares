@@ -1,0 +1,18 @@
+ALG
+ED:
+
+Inicio
+ Ler(salario)
+ Se salario < 500
+  salario <- salario * 0.9
+ Senao
+  Se salario < 1000
+   salario <- salario * 0.85
+  Senao 
+   Se salario > 1000 
+    salario <- salario * 0.80
+   Fimse
+  Fimse
+ Fimse 
+ Escrever(salario)
+Fim

@@ -1,0 +1,19 @@
+ALG
+ED:
+
+a)Escrever o numero todo e no lugar em q estao numeros impares por 0 e pares mante lo
+b)
+ INÍCIO
+LER(num)
+num1 <- 0; ord<-0
+Se(n > 9) E (n < 9999)
+ENQUANTO (num <> 0)
+dig <- num MOD 10
+SE (dig MOD 2 = 0) ENTÂO
+num1 <- num1 + dig * potencia(10,ord)
+ord<- ord+1
+ FIMSE
+num <- num DIV 10
+FIMENQUANTO
+ESCREVER("Resultado=” num1)
+FIM

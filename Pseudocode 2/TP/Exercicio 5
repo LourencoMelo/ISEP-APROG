@@ -1,0 +1,19 @@
+ALG
+ED:
+
+Inicio
+ expoente <- -1
+ total <- 0
+ Ler(n)
+ Se n>0
+  Repetir Enquanto (n DIV 10)<> 0
+   n MOD 10 <- dig
+   expoente <- expoente + 1
+   total <- total +(((dig) * (2^(expoente)))
+  FimRepetir
+ Escrever(total)
+ Senao
+ Escrever(´digite um numero positivo´)
+ Fimse
+Fim
+   

@@ -1,0 +1,32 @@
+TP
+Exercicio 4
+ALG
+ED:n, impar, maior,total
+
+Inicio
+ Ler(n)
+ impar <- 0
+ total <- 0
+ Repetir(n<100 E impar < 5)
+ total <- total + 1
+ Se (n MOD 2) <> 0 E n<>0
+  impar <- impar + 1
+ Senao
+  Se (n MOD 3)= 0 E n<>0
+   Se n > maior
+	 maior <- n
+	Fimse
+ Fimse
+ Ler(n)
+ FimRepetir
+ Se maior = 0
+  Escrever(´Nao foi introduzido nenhum numero multiplo de 3 e par´)
+ Senao
+  Escrever(´O numero maior introduzido´, maior)
+ Fimse
+Fim
+  
+    
+  
+ 
+ 

@@ -1,0 +1,33 @@
+AlG
+ED:
+
+Incio
+ valorf <- 0
+ Ler(n)
+ Ler(t)
+  Repetir Enquanto n>0
+   Se t = ´Dolar´
+    valorf <- (n/1.534)
+   Senao
+    Se t = ´Libra´
+     valorf <- (n/0,774)
+    Senao
+	 Se t = ´Iene´
+	  valorf <- (n/161,480)
+	 Senao 
+	  Se t = ´Coroa Sueca´
+	   valorf <- (n/9,593)
+	  Senao
+	   Se t = ´Franco Suíço´
+	    valorf <- (n/1,601)
+	   Senao 
+	   Fimse
+	  Fimse
+     Fimse	  
+    Fimse
+   Fimse
+   Escrever(valorf)
+  FimRepetir
+Fim 
+   
+       

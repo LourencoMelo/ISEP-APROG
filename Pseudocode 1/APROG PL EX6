@@ -1,0 +1,24 @@
+ALG
+ED: 
+
+Inicio 
+ Ler(n)
+ Ler(limite)
+  Se n>0 E limite>0
+   soma <- n
+   menor <- n
+   Repetir Enquanto (soma < limite)
+    Ler(n)
+	soma <- soma + n
+	Se n< menor
+	 menor<- n
+	Fimse
+   FimRepetir
+  Senao 
+   Escrever(´Introduza um numero e um limite positivo´)
+  Fimse
+ Escrever(menor)
+Fim
+ 
+    
+    

@@ -1,0 +1,25 @@
+ALG
+ED:
+
+Inicio
+ Ler(n)
+ totalpar <- 0
+ totalimpar <- 0
+ nimpar <- 0
+ total <- 0
+ Repetir Enquanto (n>0) 
+  Se (n MOD 2)=0
+   totalpar <- totalpar + n
+  Senao
+   totalimpar <- totalimpar + n
+   nimpar <- nimpar + n 
+  Fimse
+ Ler(n)
+ FimRepetir
+ Se total>0
+  total<- totalimpar + totalpar
+  perpar <- (totalpar/total)/100
+  mediaimpar <- totalimpar / nimpar
+  Escrever (perpar, mediaimpar)
+ Fimse
+Fim 

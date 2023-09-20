@@ -1,0 +1,23 @@
+ALG
+ED:
+
+Inicio
+ Ler(numfuncio)
+ totalsalario <- 0
+ mediasalarial <- 0
+ Se numfuncio < 1
+  Repetir 1 ate numfuncio PASSO +1 
+   Ler(salario)
+   Ler(horasextra)
+   Se salario > 0 E horasextra >= 0
+    salariofinal <- salario + (horasextra* 0.02 * salario)
+    Escrever(salariofinal)
+    totalsalario <- totalsalario + salariofinal
+   Senao
+    Escrever(´Digite valores positivos´)
+   Fimse
+  FimRepetir
+ Fimse
+ mediasalarial <- totalsalario / numfuncio
+ Escrever(mediasalarial)
+Fim  

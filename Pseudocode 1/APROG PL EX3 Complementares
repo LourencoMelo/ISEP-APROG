@@ -1,0 +1,17 @@
+ALG
+ED:
+
+Inicio
+ posicao <- 0
+ totaldig <- 0
+ Ler(numero1)
+ Repetir
+  (numero MOD 10) = dig
+  posicao <- posicao + 1
+  totaldig <- totaldig + (dig*posicao)
+  Se totaldig MOD 11 = 0
+   Escrever(´Os dados inseridos estao corretos´)
+  Fimse
+ FimRepetir
+Fim 
+  

@@ -1,0 +1,25 @@
+TP
+Exercicio 3
+ED: n, menor, total, par, impar, mediapar, pimpar INTEIROS
+
+Inicio
+ Ler(n)
+ menor <- 0
+ total <- 0
+ par <- 0
+ Repetir Enquanto ( total<100 E n>=0)
+  Se n < menor
+   menor <- n
+  Fimse
+  total <- total +1
+  Se n MOD 2 
+   par <- par + 1
+  Senao
+   impar <- impar + 1
+  Fimse
+  Ler(n)
+ FimRepetir
+ Escrever(par, impar, menor)
+Fim
+  
+  

@@ -1,0 +1,16 @@
+ALG
+ED: 
+
+a)Escrever o numero ao contrario e multiplicado por 2
+b)
+
+INÍCIO
+ LER(num)
+ num1 <- 0
+ ENQUANTO (num MOD 2 = 0) E (num MOD 3 <> 0)
+  dig <- num MOD 10
+  num1 <- num1 * 10 + dig
+  num <- num DIV 10
+ FIMENQUANTO
+ ESCREVER("Resultado=” , 2*num1)
+FIM

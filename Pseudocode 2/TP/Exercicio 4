@@ -1,0 +1,28 @@
+ALG
+ED:
+
+Inicio
+ maiorx <- 0
+ menorx <- 0 
+ Ler(x)
+ Ler(y)
+ Se x > 0 e y > 0 
+  menorx <- x
+  menory <- y
+ Repetir
+  Ler(x)
+  Ler(y)
+  Se x > 0 e y > 0
+   Se x < menorx
+    menorx <- x
+   Senao x > maiorx
+    maiorx <- maiorx
+   Fimse
+   Se y < menory
+    menory <- y
+   Senao y > maiory
+    y <- maiory
+ Enquanto(x > 0 e y > 0)
+ Escrever(´O ponto 1 é ´, menorx, maiory, ´O ponto 2 é´, maiorx, menory
+Fim 
+  

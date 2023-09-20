@@ -1,0 +1,19 @@
+ALG
+ED:
+
+Inicio
+ expoente <- -1
+ total <- 0
+ Ler(n)
+ Ler(basef)
+ Se n > 0 E basef > 0
+  Repetir Enquanto (n <> 0)
+   dig <- n MOD basef
+   expoente <- expoente + 1
+   total <- total + (dig * 10^(expoente)
+   n <- n DIV basef
+  FimRepetir
+ Fimse
+ Escrever(total)
+Fim
+  

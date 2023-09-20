@@ -1,0 +1,13 @@
+ALG
+ED:
+
+Inicio
+quadrado <- 1
+soma <- 0
+ Repete Enquanto quadrado <= 8
+  soma <- soma + (quadrada*8)
+  quadrado <- quadrado + 1
+ FimRepetir
+ Escrever(´A soma de graos é ´, soma)
+Fim
+  

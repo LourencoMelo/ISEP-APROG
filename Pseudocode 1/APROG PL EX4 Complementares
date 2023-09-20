@@ -1,0 +1,25 @@
+ALG
+ED: 
+
+Inicio
+ posiçao <- -1
+ Ler(numero)
+ Se numero > 0 
+ Repetir Enquanto ((num DIV 10) > 0)
+  num MOD 10 = dig
+  Se (dig MOD 2) = 0
+   posiçao <- posiçao + 1
+   numerop <- numerop + (dig*(10^posiçao))
+  Senao
+   posiçaoimp <- posiçaoimp + 1
+   numeroimp <- numeroimp + (dig*(10^posiçaoimp))
+  Fimse
+ FimRepetir
+ Senao 
+  Escrever(´Digite um numero positivo´)
+ numerofinal <- (numeroimp * (10^(posiçao))) + numerop
+Fim 
+ 
+ 
+    
+  

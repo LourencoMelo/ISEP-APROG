@@ -1,0 +1,26 @@
+ALG
+ED:
+
+Inicio
+ Ler(n)
+ Repetir para i=1 ate N PASSO +1
+  Ler(a,b,c)
+  Se a=0 
+   Escrever(´Nao ha equação de 2º grao´)
+  Senao 
+   dentroraiz <- ((b^2)-(4*a*c))
+   Se dentroraiz > 0
+    Escrever(´A equação tem duas raizes´)
+   Senao 
+    Se dentroraiz = 0
+	 Escrever(´A equação tem uma raiz´)
+	Senao
+	 Escrever(´A equação tem duas raizes imaginarias´)
+	Fimse
+   Fimse
+   fr1 =(-b + ((dentroraiz)^(1/2)))/2
+   fr2 =(-b - ((dentroraiz)^(1/2)))/2
+   Escrever(fr1, fr2)
+  Fimse
+ FimRepetir
+Fim 

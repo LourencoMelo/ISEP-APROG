@@ -1,0 +1,17 @@
+ED: res, num, x, N INTEIRO
+ALG
+
+INÍCIO
+ res ← 1
+ LER(num)
+ Ler(N)
+ Repetir Enquanto(n>0)
+  PARA (x ← num ATE 1 PASSO -1) FAZER
+  res ← res * x
+ FIMPARA
+ ESCREVER(“O resultado é : ”, res)
+ Ler(n)
+ FimRepetir
+FIM
+
+NAO

@@ -1,0 +1,21 @@
+ALG
+ED:n1,n2 INTEIRO
+ 
+
+Inicio
+ Ler(n1,n2)
+ Se n1 > n2 
+  Escrever(´Digite o menor numero do intervalo primeiro´)
+ Senao
+  Se n2 > n1
+   Repetir  x<- n1 até n2 PASSO +1 
+    Se (x MOD 2)= 0 E (x MOD 3)= 0 
+	 Escrever(x)
+	Fimse 
+   FimRepetir
+  Fimse
+ Fimse
+Fim 
+	 
+    	
+ 

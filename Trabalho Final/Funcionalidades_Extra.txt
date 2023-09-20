@@ -1,0 +1,9 @@
+plano de testes
+Melhorar 12 e confirmar se esta correto e se aparece eliminar
+
+Comentários:
+Tirar duvida no final do modulo das classificações
+No caso 5 falta ordenar por ordem alfabetica 
+
+
+

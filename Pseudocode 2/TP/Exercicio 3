@@ -1,0 +1,15 @@
+ALG
+ED: 
+Inicio
+ Ler(N)
+ soma <- 0
+ Ler(a)
+ Ler(b)
+ Se a <> 0
+  Repetir Para i <- 1 até N PASSO +1
+  soma <- soma + ((-1)^i)*(((b-i)^3)/(a^2))
+  Fimpara
+  Escrever (´A soma é´, soma)
+ Fimse
+Fim 
+  
